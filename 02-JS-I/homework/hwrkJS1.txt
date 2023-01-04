@@ -1,0 +1,28 @@
+variable: 
+
+var a  = numbers
+
+var a = 7 -> numeros 
+a = 8
+
+*string = una cadena de caracteres
+string = "hola"
+string = "23"
+string = 'hello'
+
+funcion (a, b) => {
+    return a+b
+}
+funcion (2, 3) => {
+    return 2+3
+}
+funcion suma ( a, b) {
+    return a + b
+}
+
+
+*declaracion if
+
+if (condicion){
+    lee lo que esta aqui
+}
