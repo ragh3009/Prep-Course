@@ -4,11 +4,25 @@ function mayuscula(nombre) {
   //La función recibe un nombre y debe devolver el mismo que recibe pero con su primer letra en mayúscula
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
+  
+
+  // 1 caracter del nombre
+  // Ese primer caracter convertirlo en Mayuscula
+  // 1 caracter ya en mayus lo pegamos a toda la palabras
+
+  var primerCaracter = nombre.chartA(0);
+  var primerCaracterMayuscula = primerCaracter.toUpperCase();
+  var restoDeNombre = nombre.slice(1);
+
+  var resultado = primerCaracterMayuscula + restoDeNombre;
+
+  return resultado;
 }
 
 function invocarCallback(cb) {
   // Invoca al callback `cb`
   //Tu código:
+  cb();
 }
 
 function operacionMatematica(n1, n2, cb) {
